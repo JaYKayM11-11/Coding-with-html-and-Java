@@ -1,0 +1,16 @@
+f-strings -
+  short for: format(ting) string(s)
+  
+example | |
+        V V
+print(f"Hello, {input("Name: ")}")
+
+Conditions
+
+num = input("Number: ")
+if num > 0:
+    print("Number is positive")
+elif num < 0:
+    print("Number is negative")
+else:
+    print("Number is 0")
